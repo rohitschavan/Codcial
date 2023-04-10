@@ -4,6 +4,8 @@ var port = 9000;
 
 var app = express();
 
+app.use('/',require('./routes/index'));
+
 app.listen(port,function(err){
     if(err){
         console.log(`error ${err}`);
