@@ -9,3 +9,5 @@ db.once('open',function(){
 })
 
 db.on('error',console.error.bind(console,'something happended'));
+
+console.log('rohit');
